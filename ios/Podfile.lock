@@ -1,0 +1,36 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_libphonenumber_ios (1.1.4):
+    - Flutter
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.8.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PhoneNumberKit/PhoneNumberKitCore (3.8.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_libphonenumber_ios (from `.symlinks/plugins/flutter_libphonenumber_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - PhoneNumberKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_libphonenumber_ios:
+    :path: ".symlinks/plugins/flutter_libphonenumber_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_libphonenumber_ios: 6bd2fac9dfb8f37c5732451fb7c9a992f1088d86
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  PhoneNumberKit: ec00ab8cef5342c1dc49fadb99d23fa7e66cf0ef
+
+PODFILE CHECKSUM: da2125e0916810fdfcca1ca7aee3d2b4bd899f0a
+
+COCOAPODS: 1.16.2
